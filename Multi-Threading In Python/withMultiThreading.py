@@ -11,7 +11,6 @@ def print_squares():
         print(f"Square of {i} is {i * i}")
         result.append(i * i)
     
-
 def print_cubes():
     for i in range(1, 11):
         time.sleep(0.5)  # Simulating a time-consuming task
